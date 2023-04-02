@@ -6,6 +6,57 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.logo--img {
+  width: 80px;
+  height: 100px;
+  padding-top: 1.7rem;
+}
+
+.first--url--image {
+  height: 80%;
+}
+
+.first--img {
+  height: 100%;
+  object-fit: fill;
+}
+
+.necautati--margin p {
+  margin: 0 0 0 0;
+}
+
+.galerie--imagini {
+  max-width: 20%;
+}
+
+.galery--foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto--margin {
+  padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .galerie--imagini {
+    max-width: 25%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .galerie--imagini {
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .galerie--imagini {
+    max-width: 100%;
+  }
+}
+
 html,
 body,
 div,
@@ -1494,14 +1545,12 @@ section:last-child,
 }
 
 .quote-list li p {
-  margin: 0 0 0 90px;
   font-size: 1.2em;
   font-style: italic;
 }
 
 .quote-list li span {
   display: block;
-  margin-left: 90px;
   font-size: 0.9em;
   font-weight: 400;
 }
@@ -1596,29 +1645,6 @@ section:last-child,
 }
 
 /* Header */
-
-.logo--img {
-  width: 80px;
-  height: 100px;
-  padding-top: 1.7rem;
-}
-
-.first--url--image {
-  height: 80%;
-}
-
-.first--img {
-  height: 100%;
-  object-fit: fill;
-}
-
-.necautati--margin p {
-  margin: 0 0 0 0;
-}
-
-.galerie--imagini {
-  max-width: 25%;
-}
 
 #header {
   position: relative;
