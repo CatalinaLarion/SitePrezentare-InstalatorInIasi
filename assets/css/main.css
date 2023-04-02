@@ -1853,7 +1853,6 @@ section:last-child,
   }
 
   .quote-list li p {
-    margin: 0 0 0 80px;
     font-size: 1em;
     font-style: italic;
     line-height: 1.8em;
@@ -1861,7 +1860,6 @@ section:last-child,
 
   .quote-list li span {
     display: block;
-    margin-left: 80px;
     font-size: 0.8em;
     font-weight: 400;
     line-height: 1.8em;
