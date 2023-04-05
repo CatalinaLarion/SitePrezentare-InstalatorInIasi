@@ -39,6 +39,20 @@
   padding-bottom: 2rem;
 }
 
+.strong-text {
+  font-weight: 500;
+}
+
+.facebook-adress {
+  font-weight: 400;
+  color: #535657 !important;
+}
+
+.facebook-adress:hover {
+  cursor: pointer;
+  color: #0c485c !important;
+}
+
 @media screen and (max-width: 1280px) {
   .galerie--imagini {
     max-width: 25%;
